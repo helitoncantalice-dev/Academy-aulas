@@ -1,0 +1,88 @@
+@import url(./global.css);
+
+header {
+  width: 100%;
+  height: 80px;
+  border-radius: 100px;
+  background-color: var(--brand-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.esquerda {
+  background-color: var(--bg-cinza);
+  font-family: var(--font-family);
+  width: 980px;
+  height: 860px;
+  margin-left: 29px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 81px;
+
+  p {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 68px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input1 {
+    margin-bottom: 44px;
+  }
+
+  ul {
+    margin-top: 37px;
+    text-align: center;
+    list-style: none;
+  }
+
+  button {
+    margin-top: 113px;
+    width: 240px;
+    height: 60px;
+    background-color: var(--brand-color);
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 24px;
+  }
+
+  input {
+    width: 840px;
+    height: 80px;
+    background-color: var(--bg-input);
+    border-radius: 15px;
+    border: transparent;
+  }
+}
+
+::placeholder {
+  color: black;
+}
+
+.direita {
+  width: 980px;
+  height: 860px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 240px;
+    height: 280px;
+  }
+}

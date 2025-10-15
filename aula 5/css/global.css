@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #03fa6e;
+  --font-color: black;
+  --bg-cinza: rgba(217, 217, 217, 28%);
+  --bg-input: rgba(217, 217, 217, 45%);
+  --font-family: "Red Hat Mono", monospace;
+}
