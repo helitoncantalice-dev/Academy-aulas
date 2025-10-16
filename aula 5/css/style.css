@@ -1,7 +1,7 @@
 @import url(./global.css);
 
 header {
-  width: 100%;
+  width: 1920px;
   height: 80px;
   border-radius: 100px;
   background-color: var(--brand-color);
@@ -34,6 +34,7 @@ header {
     font-size: 40px;
     text-align: center;
     margin-top: 68px;
+    margin-bottom: 61px;
   }
 
   form {
@@ -44,6 +45,7 @@ header {
 
   .input1 {
     margin-bottom: 44px;
+    
   }
 
   ul {
@@ -76,13 +78,30 @@ header {
 }
 
 .direita {
-  width: 980px;
-  height: 860px;
-  display: grid;
+
+  display: flex;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+
+  p {
+    font-size: 40px;
+    font-family: var(--font-family);
+    margin-top: 145px;
+    margin-bottom: 62px;
+  }
 
   img {
     width: 240px;
     height: 280px;
+    border-radius: 25px;
+    object-fit: cover;
   }
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 44px;
+    
 }
