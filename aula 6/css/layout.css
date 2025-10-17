@@ -1,0 +1,27 @@
+#app {
+  display: grid;
+  grid-template-columns: 51.25% 48.75%;
+  height: 100vh;
+}
+
+main {
+  background-color: aquamarine;
+  font-size: 1rem;
+  overflow: auto;
+
+  .main-container {
+    padding: 4rem;
+    max-width: 33rem;
+    margin-left: auto;
+  }
+}
+
+aside {
+  background-color: beige;
+
+  .aside-container {
+    padding: 4rem;
+    max-width: 31rem;
+    overflow: hidden;
+  }
+}
