@@ -17,6 +17,48 @@
           <h1>Formulário de matrícula</h1>
           <p>Preencha os dados abaixo para matricular como aluno na Academy</p>
         </div>
+
+        <form action="" method="get">
+          <fieldset>
+            <legend>Informações do aluno</legend>
+
+            <div class="input-wrapper">
+              <label for="fullname">Nome Completo</label>
+              <input type="text" name="fullname" id="fullname" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input type="date" name="birth" id="birth" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="gender">Sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="Male">Masculino</option>
+                <option value="Na">Prefiro não dizer</option>
+              </select>
+
+              <div class="textarea-wrapper">
+                <label for="medicalinfo">Informações médicas</label>
+                <textarea
+                  name="medicalinfo"
+                  id="medicalinfo"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="droparea">
+                <label for="droparea">Foto do perfil</label>
+                <input type="file" name="file" id="file" />
+                <img src="./assets/icons/cloud-upload.png" alt="" />
+                <p>Clique aqui para selecionaros arquivos</p>
+              </div>
+            </div>
+          </fieldset>
+        </form>
       </main>
 
       <aside>
